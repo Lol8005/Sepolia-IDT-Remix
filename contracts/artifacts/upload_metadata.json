@@ -1,0 +1,123 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "recordType",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "recordIPFSFilePath",
+								"type": "string"
+							}
+						],
+						"internalType": "struct upload.Record[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_recordType",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_recordIPFSFilePath",
+						"type": "string"
+					}
+				],
+				"name": "push",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "records",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "recordType",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "recordIPFSFilePath",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/upload.sol": "upload"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/upload.sol": {
+			"keccak256": "0xd1656d689c3416acf6f89becab364e96dcdc0717b770def3577fd41fe3a4396d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3396298d8bc109fae73a635fa680c9355e9f85534e8b644261fa0518af24af06",
+				"dweb:/ipfs/QmU3hZKQorsKjpgLrFdCNxrwMBbS35JAjha6thnuNh3wkd"
+			]
+		}
+	},
+	"version": 1
+}
